@@ -20,6 +20,10 @@ public class IntegrationTestPages : IClassFixture<WebApplicationFactory<Program>
     [Theory]
     [InlineData("Index")]
     [InlineData("Privacy")]
+    [InlineData("Github")]
+    [InlineData("Pruebas")]
+    [InlineData("Cuadrado")]
+
     public async Task TestGetPages(string url)
     {
         // Arrange

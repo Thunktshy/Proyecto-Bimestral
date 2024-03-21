@@ -18,10 +18,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ricar\Proyecto_Bimestral.1\src\WebApp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/ricar/Proyecto_Bimestral.1/src/WebApp/Pages/Cuadrado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VhZHJhZG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ricar/Proyecto_Bimestral.1/src/WebApp/Pages/Github.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2l0aHViLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ricar/Proyecto_Bimestral.1/src/WebApp/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ricar/Proyecto_Bimestral.1/src/WebApp/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ricar/Proyecto_Bimestral.1/src/WebApp/Pages/Pruebas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJ1ZWJhcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

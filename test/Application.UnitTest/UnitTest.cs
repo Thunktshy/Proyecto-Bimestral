@@ -9,6 +9,9 @@ namespace Application.UnitTest_Poligono
         [Theory]
         [InlineData(4, 4, 16)]
         [InlineData(5, 4, 20)]
+        [InlineData(8, 6, 48)]
+        [InlineData(11, 8, 88)]
+        [InlineData(35, 26, 910)]
         public void TestPerimetro(double lado, int n_lados, double perimetro)
         {
             // Arrange – Set up
@@ -21,7 +24,11 @@ namespace Application.UnitTest_Poligono
         }
 
         [Theory]
-        [InlineData(4, 5, 6,60)]
+        [InlineData(4 , 5 , 6 ,60)]
+        [InlineData(4 , 6 , 6 ,72)]
+        [InlineData(12, 5 , 8 ,240)]
+        [InlineData(9 , 8 , 6 ,216)]
+        [InlineData(25, 12, 14,2100)]
         public void TestArea(double lado, int n_lados, double radio, double area)
         {
             // Arrange – Set up
@@ -36,7 +43,6 @@ namespace Application.UnitTest_Poligono
     public class UnitTestPrismaRegular
         {
             [Theory]
-            [InlineData(60 , 3,  180)]
             [InlineData(60 , 4 , 240)]
             [InlineData(30 , 3 , 90 )]
             [InlineData(105, 3 , 315)]
